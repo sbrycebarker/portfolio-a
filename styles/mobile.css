@@ -1,0 +1,516 @@
+@media (max-width: 800px) {
+  html {
+    height: 2000px;
+    width: 100%;
+    color: black
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid black;
+    color: none;
+  }
+
+  a:hover {
+    color: grey;
+    background-color: none;
+  }
+
+  .navbar-inverse {
+      background-color: white;
+      border-color: black;
+  }
+
+  .homecon {
+    height: 1000px;
+    width: 100%;
+  }
+
+  .titles {
+    font-size: 2em;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /*height: 40px;
+  top: 10px;
+  width: 100px;
+  position: absolute;
+  left: 100px;
+  display: flex;
+  border-right: solid 1px white;*/
+  .home {
+    height: 40px;
+    top: 10px;
+    width: 75px;
+    position: absolute;
+    display: block;
+    left: 0px;
+    border-right: solid 1px black;
+  }
+
+  .home h1 {
+    height: 18px;
+    width: 50px;
+    margin: 11px;
+    position: relative;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    transition: color 2s
+  }
+
+  .home h1:hover {
+    color: grey;
+    transition-duration: .5s;
+  }
+
+  .headeritems {
+    height: 65px;
+    width: 225px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    right: 10px;
+  }
+
+  .headeritem {
+    height: 15px;
+    width: 75px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .headeritem h2 {
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    transition: color 2s;
+    right: 0
+  }
+
+  .headeritem h2:hover {
+    color: grey;
+    transition: color;
+    transition-duration: .5s;
+    margin: auto;
+  }
+
+  #top {
+    height: 80vh;
+    width: 100%;
+    background-image: url("./imgs/darkwood.jpg");
+    background-size: cover;
+    display: flex;
+    background-attachment: fixed;
+  }
+
+  .namepos h1 {
+    margin: auto;
+    width: 60%;
+    font-size: 15px;
+  }
+
+  .namepos {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    color: white;
+    background-color: none;
+    border-radius: 0;
+    opacity: .9;
+    text-align: center;
+  }
+
+  #about {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-attachment: fixed;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .aboutcon {
+    height: 90%;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    /* border-bottom: 2px solid black; */
+  }
+
+  .about_div {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  #leftabout {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+  }
+
+  #leftabout h1 {
+    font-size: 30px;
+  }
+
+  #centerabout {
+    display: flex;
+    height: 75px;
+    flex-direction: column;
+  }
+
+  #centerabout h1 {
+    font-size: 25px;
+  }
+
+  #rightabout {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+  }
+
+  .sergio {
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+
+  .cuttingboard {
+    height: auto;
+    width: 100%
+  }
+
+  .subarurally {
+    height: auto;
+    width: 100%;
+  }
+
+  .pasta {
+    height: auto;
+    width: 80%;
+  }
+
+  .rightimgs {
+    margin: auto;
+  }
+
+  .aboutcon p {
+    height: 10px;
+    width: 90%;
+    top: -10px;
+    margin: auto;
+    position: relative;
+    color: black;
+    text-align: center;
+  }
+
+  .devicon-gulp-plain {
+    text-decoration: none;
+  }
+
+  .md {
+    height: 30px;
+    width: 40px;
+  }
+
+  .md:hover {
+    height: 33.5px;
+    width: 45px;
+    transition: font-size;
+    transition-duration: .5s;
+  }
+
+  #skills {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    background-size: contain;
+    display: flex;
+    background: url(imgs/timp1.jpg);
+    background-position: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    border-bottom: 2px solid #222;
+    padding-bottom: 25px;
+  }
+
+  .skillsbox {
+    height: auto;
+    width: 70%;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid black;
+    opacity: .9;
+    justify-content: center;
+    color: black;
+  }
+
+  .skillsbox ul {
+    height: auto;
+    width: auto;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    margin: 17px 17px;
+  }
+
+  .skillsbox ul:hover {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+
+  .skillsbox ul:active {
+    transform: rotateY(360deg);
+    transition-duration: 1s;
+    background-color: none;
+  }
+
+  i {
+    font-size: 40px;
+    margin: auto;
+    color: black;
+  }
+
+  i:hover {
+    text-decoration: none;
+    background-color: none
+  }
+
+  #projects {
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    background-attachment: fixed;
+    padding-bottom: 25px;
+  }
+
+  .#projects .title {
+    top: 100px;
+  }
+
+  #starpro {
+    border-radius: none;
+  }
+
+  #starwars {
+    background-image: url("./imgs/starwars.png");
+    background-size: cover;
+    background-position: center;
+    /*border-radius: 15px 0 0 0;*/
+  }
+
+  #subaru {
+    background-image: url("./imgs/subaru.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #rockshowZ {
+    background-image: url("./imgs/rockshowz.png");
+    background-size: cover;
+    background-position: center;
+    /*border-radius: 0 15px 0 0;*/
+  }
+
+  #todoapp {
+    background-image: url("./imgs/todoapp.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #drumkit {
+    background-image: url("./imgs/drumkit.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #clock {
+    background-image: url("./imgs/clock.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #perform {
+    background-image: url("./imgs/barkerperformance.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .projcon {
+    height: 90%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    border-radius: 0 0 0 0;
+    background-color: white;
+  }
+
+  .pronam {
+    font-size: 12px;
+  }
+
+  .go2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .project {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    opacity: .9;
+    border-radius: none;
+    color: black;
+    position: relative;
+  }
+
+  .project a {
+    height: 200px;
+    width: 100%;
+    color: inherit;
+  }
+
+  .projimg {
+    height: 200px;
+    width: 100%;
+    background-size: 100%;
+    background: cover;
+    border-radius: none
+  }
+
+  .projcover {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+    opacity: 0;
+    display: flex;
+    vertical-align: middle;
+    transition: opacity 2s;
+    text-align: center;
+  }
+
+  .projcover h1 {
+    height: 100px;
+    width: 125px;
+    top: 20px;
+    position: relative;
+    margin: auto;
+    /*text-align: center;*/
+  }
+
+  .projcover:hover {
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: .9
+  }
+
+  #contact {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #333333;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    border-top: 2px solid black;
+    color: white;
+    padding-bottom: 25px;
+  }
+
+  .contcon {
+    height: auto;
+    width: auto;
+    top: 20px;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    border-radius: 15px;
+    opacity: .9;
+    justify-content: center;
+    border: 2px solid white;
+    font-size: 14px;
+  }
+
+  .contcon h2 {
+    font-size: 25px;
+    margin: 5px auto;
+  }
+
+  .contcon a {
+    color: white
+  }
+
+  .contcon a:hover {
+    color: black
+  }
+
+  .det {
+    margin: auto;
+    text-align: center;
+  }
+  .sec {
+    /*border-bottom: 2px solid white;*/
+    color: black;
+  }
+
+  #linkedin {
+    position: relative;
+  }
+}
